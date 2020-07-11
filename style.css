@@ -21,66 +21,6 @@ body{
 /*-----------------START TOP HEADER----------------------------*/
 
 
-.header_content h2{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  -moz-animation-duration: 5s;
-  -webkit-animation-duration: 5s;
-  -moz-animation-name: slidein-left;
-  -webkit-animation-name: slidein-left;
-}
-
-@-moz-keyframes slidein-left {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes slidein-left {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-.header_content h2 {
-  -moz-animation-duration: 5s;
-  -webkit-animation-duration: 5s;
-  -moz-animation-name: slidein-right;
-  -webkit-animation-name: slidein-right;
-  animation-iteration-count:infinite;
-}
-
-@-moz-keyframes slidein-right {
-  from {
-    margin-right: 100%;
-    width: 300%
-  }
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes slidein-right {
-  from {
-    margin-right: 100%;
-    width: 300%
-  }
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
 
 .navbar{
     background-color: transparent!important;
