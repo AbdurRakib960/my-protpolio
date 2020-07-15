@@ -42,7 +42,7 @@ body{
     height: auto;
 }
 .top_header{
-    background-image: linear-gradient(to bottom,purple, blue,cyan,lightSalmon);
+    background-image: linear-gradient(to bottom, blue,cyan);
     width:100%;
     height:auto;
     background-repeat: no-repeat;
